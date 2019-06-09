@@ -82,10 +82,10 @@
                 document.getElementById('pacman').style.left = pacman.x*20+"px";
             }
             function displayScore(){
-                document.getElementById('score').innerHTML="Score:<br>  " + score;
+                document.getElementById('score').innerHTML="Score:<br>  " + score";
             }
             function displayLives(){
-                document.getElementById('lives').innerHTML = "Lives:<br>" + lives;
+                document.getElementById('lives').innerHTML = "Lives:<br>" + lives";
             }
             function displayGhost1(){
                 document.getElementById('ghost1').style.top = ghost1.y*20+"px";
